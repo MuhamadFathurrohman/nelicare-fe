@@ -27,10 +27,10 @@ export default function DefaultLayout() {
 
   return (
     <div id="defaultLayout">
-      <aside>
+      {/* <aside>
         <Link to="/admin/section/dashboard">Dashboard</Link>
         <Link to="/admin/section/users">Users</Link>
-      </aside>
+      </aside> */}
       <div className="content">
         <header>
           <div>Header</div>
