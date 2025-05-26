@@ -1,0 +1,104 @@
+.news-section {
+    padding: 40px 60px;
+
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    .news-list {
+        padding: 0 75px;
+        max-height: 550px;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        padding-right: 0.5rem;
+        padding-bottom: 35px;
+    }
+}
+
+.news-list::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+
+.news-card {
+    display: flex;
+    width: 1000px;
+    height: 900px;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    img {
+        width: 250px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .news-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .news-tag {
+            font-family: "Inter", sans-serif;
+            width: 150px;
+            height: 30px;
+            text-align: center;
+            background-color: #32cd32;
+            color: white;
+            font-size: 14px;
+            padding: 7px 10px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0 0 0.5rem;
+        }
+
+        .news-text {
+            font-size: 0.75rem;
+            text-align: justify;
+            line-height: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .read-more {
+            background-color: none;
+            border: none;
+            color: #32cd32;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0;
+            align-self: flex-start;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .news-card {
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

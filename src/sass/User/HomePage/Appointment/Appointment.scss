@@ -1,0 +1,51 @@
+.appointment {
+    background: linear-gradient(135deg, #f2fce2 0%, #ffffff 50%, rgba(211, 228, 253, 0.2) 100%);
+    padding: 4rem 2rem;
+    text-align: center;
+
+    .card-appoint {
+        background: white;
+        border-radius: 1rem;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 2rem 1.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+
+        h2 {
+            font-family: "Poppins", sans-serif;
+            font-size: 1.75rem;
+            color: #1f2937;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+        }
+
+        .button-appoint {
+            display: inline-flex;
+            align-items: center;
+            background-color: #32cd32;
+            color: white;
+            padding: 0.75rem 1.25rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background-color 0.3s ease;
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 0.5rem;
+            }
+
+            &:hover {
+                background-color: #5fe862;
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+export {default as Facebook} from "./facebook.png"
+export {default as Instagram} from "./instagram.png"
+export {default as Twitter} from "./twitter.png"
+export {default as Location} from "./location.png"
+export {default as Clock} from "./clock.png"
+export {default as Mail} from "./mail.png"
+export {default as Phone} from "./phone.png"
